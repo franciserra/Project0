@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-      <title>Search</title>
+      <title>Advanced Search</title>
 
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -12,34 +12,69 @@
     </head>
     <body>
 
-      <div class="container-fluid navigation">
+      <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="C:\git\search\index.html">
+          <img src="/C:\git\search\static\images\logo.png" width="92" height="33" class="d-inline-block align-top" alt="" loading="lazy">
+        </a>
+      </nav>
+
+      <div class="container-fluid appbar">
         <div class="row">
-          <div class="col-sm">
-            <ul class="nav justify-content-end top-nav ">
-              <li class="nav-item">
-                <a class="nav-link active" href="C:\git\search\images.html">Images</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="C:\git\search\index.html">Google Search</a>
-              </li>
-            </ul>
-          </div>
+          <label style="margin-left:10px">Advanced Search</label>
         </div>
+        <div class="row separator"></div>
       </div>
 
-      <div class="container-fluid main">
-        <div class="row align-items-center h-100">
-          <div class="col-sm text-center">
-            <img src="C:\git\search\static\images\logo.png" class="rounded mx-auto d-block logo" alt="Logo">
-            <form action="https://google.com/search" class="form-group w-50 mx-auto d-block">
 
-              <input class="form-control mx-auto" type="text" name="q" id="searchbar">
-              <input class="form-control mx-auto" type="submit" value="Google Search" id="searchbutton">
-            </form>
+      <div class="container forming">
 
+
+        <form action="https://google.com/search" class="form-group mx-auto d-block">
+
+          <div class="form-group row ">
+            <div class="col subtitle">
+              <span>Find pages with..</span>
+            </div>
           </div>
-        </div>
+
+          <div class="form-group row">
+            <label for="input1" class="col-sm-3 col-form-label">all these words</label>
+            <div class="col-sm-6">
+              <input type="text" class="form-control" id="input1" name="as_q">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="input2" class="col-sm-3 col-form-label">this exact word or phrase:</label>
+            <div class="col-sm-6">
+              <input type="text" class="form-control" id="input2" name="as_epq">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="input3" class="col-sm-3 col-form-label">any of these words:</label>
+            <div class="col-sm-6">
+              <input type="text" class="form-control" id="input3" name="as_oq">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="input4" class="col-sm-3 col-form-label">none of these words:</label>
+            <div class="col-sm-6">
+              <input type="text" class="form-control" id="input4" name="as_eq">
+            </div>
+          </div>
+          <div class="form-group row justify-content-center">
+            <div class="col-sm-2 aling-content-center">
+              <input class="form-control mx-auto" type="submit" value="Advanced Search" id="advancedsearchbutton">
+            </div>
+          </div>
+        </form>
       </div>
+
+
+
+
+
+
+
 
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

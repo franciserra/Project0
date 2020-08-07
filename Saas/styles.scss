@@ -85,3 +85,58 @@ a {
   background-color: #f8f8f8;
   border: 1px solid #c6c6c6;
 }
+
+nav {
+  height: 60px;
+}
+
+.navbar-brand {
+  background-position: 0 -35px;
+}
+
+.appbar{
+  color: #d93025;
+  font-size: 20px;
+  margin: 25px 35px;
+}
+
+.separator {
+    border-bottom: 1px solid #ebebeb;
+}
+
+.subtitle {
+  float: left;
+  display: inline-block;
+  min-width: 167px;
+  width: 16%;
+  font-size: 16px;
+  height: 42px;
+  font-weight: 500;
+  color: #333;
+  vertical-align: middle;
+}
+
+.forming {
+  max-width: 1140px;
+  min-width: 200px;
+  width: 90%;
+  margin: 40px 2% 0 45px;
+}
+
+.description {
+  color: #666;
+  font-family: monospace;
+  font-size: 11px;
+  white-space: pre;
+}
+
+#advancedsearchbutton{
+  margin-top: 10px;
+  height: 30px;
+  padding: 0 12px;
+  background-color: #4d90fe;
+  color: white;
+  border: 1px solid #3079ed;
+  font: 400 13.3333px Arial;
+
+}
