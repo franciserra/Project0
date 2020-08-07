@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-      <title>Search</title>
+      <title>Image Search</title>
 
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -17,7 +17,7 @@
           <div class="col-sm">
             <ul class="nav justify-content-end top-nav ">
               <li class="nav-item">
-                <a class="nav-link active" href="C:\git\search\images.html">Images</a>
+                <a class="nav-link active" href="C:\git\search\index.html">Google Search</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="C:\git\search\advanced.html">Advanced Search</a>
@@ -30,11 +30,15 @@
       <div class="container-fluid main">
         <div class="row align-items-center h-100">
           <div class="col-sm text-center">
-            <img src="C:\git\search\static\images\logo.png" class="rounded mx-auto d-block logo" alt="Logo">
-            <form action="https://google.com/search" class="form-group w-50 mx-auto d-block">
+            <div title="Google Images" id="hplogo" align="left" class="mx-auto">
+              <div class="logo-subtext"><span>images</span></div>
+            </div>
+
+            <form action="https://www.google.com/search" class="form-group w-50 mx-auto d-block">
 
               <input class="form-control mx-auto" type="text" name="q" id="searchbar">
               <input class="form-control mx-auto" type="submit" value="Google Search" id="searchbutton">
+              <input type="hidden" id="custId" name="tbm" value="isch">
             </form>
 
           </div>

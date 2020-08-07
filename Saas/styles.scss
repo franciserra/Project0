@@ -6,11 +6,17 @@ body {
 }
 
 a {
-  color: black;
+  color: #222;
 }
 
 .navigation{
   height: 5vh;
+}
+
+.top-nav {
+  font-family: arial,sans-serif;
+  margin-top: 10px;
+  font-size: 13px;
 }
 
 .main {
@@ -39,7 +45,24 @@ a {
 }
 
 .logo {
-  margin-top: -20px;
+  margin-bottom: 30px;
+}
+
+#hplogo{
+  background-size: 272px 92px;
+  height: 92px;
+  width: 272px;
+  background-image: url("C:/git/search/static/images/logo.png");
+  margin-bottom: 30px;
+}
+
+.logo-subtext {
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    left: 215px;
+    position: relative;
+    top: 76px;
+    white-space: nowrap;
 }
 
 #searchbutton {
